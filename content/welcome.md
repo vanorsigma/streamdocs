@@ -14,3 +14,4 @@ Useful external links:
 - **Discord**: https://discord.gg/44JGGuzVue
 - **X**: https://x.com/vanorsigma
 - **GitHub Organisation**: https://github.com/vanorsigma
+- **Overlay Source Code**: https://github.com/vanorsigma/chat-tts

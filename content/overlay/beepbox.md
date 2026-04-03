@@ -12,7 +12,8 @@ Beepbox was conceptualised from the [beepbox](https://www.beepbox.co) site, whic
 
 "SongBot" can be interacted with via the [#song](https://discord.com/channels/1324837719859396668/1330568746124709990) channel.
 
-TODO: fill with more information about how to use songbot im too lazy
+> [!IMPORTANT]
+> **TODO**: fill with more information about how to use songbot on discord
 
 To play a song registered in beepbox, surround the name of the song in angle brackets: `<songname>`.
 Playing a beepbox song will show a spinning vanor on the screen, and is free.

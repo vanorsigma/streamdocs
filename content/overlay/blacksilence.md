@@ -8,4 +8,4 @@ The [Black Silence](https://libraryofruina.wiki.gg/wiki/The_Black_Silence) is a 
 
 It cancels all [trinkets]({{< relref "trinket.md" >}}), [TTS]({{< relref "tts.md" >}}) messages, clear [Chat Bullets]({{< relref "bullet.md" >}}), and cancels [Beepbox]({{< relref "beepbox.md" >}}) songs.
 
-It is nikita's VIP command.
+It is nikitakik228's VIP command.
