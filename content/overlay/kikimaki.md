@@ -26,4 +26,4 @@ She runs on a combination of the same cloud server Kiki is on, and the [OpenRout
 
 She can only hear vanor, and respond via overlay popups.
 
-There is currentlyu no way for chat to interact with her.
+There is currently no way for chat to interact with her.
