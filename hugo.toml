@@ -1,4 +1,4 @@
-baseURL = 'https://vanorsigma.github.io/'
+baseURL = 'https://docs.catmaid.dev/'
 languageCode = 'en-us'
 title = 'Stream Guide'
 theme = 'hugo-book'
