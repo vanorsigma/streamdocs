@@ -77,7 +77,7 @@ The VIP entitlements are not stated (because they should know).
 
 |command|description|VIP|normal cost|karma effect|
 |---|---|---|---|---|
-|`%blacksilence`|Does a bunch of silencing. Check [docs]({{ relref "overlay/blacksilence.md" }})|nikitakik228|500|50
+|`%blacksilence`|Does a bunch of silencing. Check [docs]({{< relref "overlay/blacksilence.md" >}})|nikitakik228|500|50|
 |`%maxwell`|Spawn a bouncing spinning cats|5kuli|100|NA|
 |`%showimage <url or tag> <tag?>`|Shows any image on the screen. If a url is provided, and a tag is provided thereafter, saves it. Requires approval from mod or mayoigo if URL.|mayoigo_QwQ|10000|-200|
 |`%playaudio <url or tag> <tag?>`|Plays any audio. If a url is provided, and a tag is provided thereafter, saves it. Requires approval from mod or SpookiestSpooks if URL.|SpookiestSpooks|10000|-100|
