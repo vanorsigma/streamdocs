@@ -2,12 +2,12 @@
 title: "Model"
 ---
 
-Apart from being affected by the [standard model commands]({{< relref "commands.md#Standard-Model-Commands" >}}), models are also affected by the [stock market]({{<relref "overlay/stock.md" >}}).
-Particularly, the "blush" and "despair" modes are controlled exclusively by the heart rate.
+Vanor's model reacts to chat and the [stock market]({{<relref "overlay/stock.md" >}}).
 
+Commands: `%undress`, `%hearts`, `%stars` -- see [commands]({{< relref "commands.md#standard-model-commands" >}}).
 
-{{< figure src="/vanorBlush.png" title="Vanor Blushing" >}}
-
-The thresholds are:
-- Blushing: >= 80 HR
+Blush and despair are tied to heart rate (HR):
+- Blush: >= 80 HR
 - Despair: <= 50 HR
+
+{{< figure src="/vanorBlush.png" title="Vanor blushing" >}}

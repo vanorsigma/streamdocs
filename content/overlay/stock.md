@@ -2,13 +2,15 @@
 title: "Stock Market"
 ---
 
-# Stock
+# Stock Market
 
-The stream has a stock market.
-Stocks are perishable to restarts (unless vanor closes the market with `%closemarket`), but is the easiest way to earn money.
+The stream has a stock market. Invest [points]({{<relref "points.md" >}}) to grow them.
 
-TODO insert an image here
+- `%invest <amount>` -- buy in at current price
+- `%uninvest <amount>` -- sell at current price
 
-The stock market currently tracks vanor's heartrate, which will increase / decrease your value.
+The stock price tracks vanor's heart rate (HR). When HR rises (excitement, blushing) the price goes up. When HR drops (despair, calm) the price goes down.
 
-Use `%invest <amount>` to invest, and `%uninvest <amount>` to uninvest.
+The [model page]({{<relref "../model.md" >}}) shows HR thresholds for blush/despair.
+
+Stocks reset on overlay restart unless vanor closes the market cleanly with `%closemarket`.

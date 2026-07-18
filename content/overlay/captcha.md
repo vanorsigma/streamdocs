@@ -2,8 +2,8 @@
 title: CAPTCHA
 ---
 
-# CAPTCHAs
+# CAPTCHA
 
-Random 6 character codes appear from time to time on the screen.
+6-character codes pop up on screen occasionally.
 
-Typing the 6 character code in chat "claims" it, which will award you with points.
+Type the code in chat to claim it. Awards points.

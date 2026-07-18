@@ -4,17 +4,8 @@ title: Beepbox
 
 # Beepbox
 
-Beepbox is a system involving:
-- Discord Bot (known as "SongBot")
-- The `<tagname>` chat prompt
+Play custom melodies from [beepbox](https://www.beepbox.co) on stream.
 
-Beepbox was conceptualised from the [beepbox](https://www.beepbox.co) site, which allows chatters to create any custom melody.
+Register songs via SongBot in the [#song](https://discord.com/channels/1324837719859396668/1330568746124709990) discord channel.
 
-"SongBot" can be interacted with via the [#song](https://discord.com/channels/1324837719859396668/1330568746124709990) channel.
-
-> [!IMPORTANT]
-> **TODO**: fill with more information about how to use songbot on discord
-
-To play a song registered in beepbox, surround the name of the song in angle brackets: `<songname>`.
-Playing a beepbox song will show a spinning vanor on the screen, and is free.
-
+Play a song: `<songname>` in chat. Free. Shows a spinning vanor.

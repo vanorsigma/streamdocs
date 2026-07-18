@@ -4,8 +4,8 @@ title: Black Silence
 
 # Black Silence
 
-The [Black Silence](https://libraryofruina.wiki.gg/wiki/The_Black_Silence) is a reference to the game [Library of Ruina](https://store.steampowered.com/app/1256670/Library_Of_Ruina/).
+Cancels all [trinkets]({{< relref "trinket.md" >}}), [TTS]({{< relref "tts.md" >}}), [chat bullets]({{< relref "bullet.md" >}}), and [beepbox songs]({{< relref "beepbox.md" >}}).
 
-It cancels all [trinkets]({{< relref "trinket.md" >}}), [TTS]({{< relref "tts.md" >}}) messages, clear [Chat Bullets]({{< relref "bullet.md" >}}), and cancels [Beepbox]({{< relref "beepbox.md" >}}) songs.
+[Library of Ruina](https://libraryofruina.wiki.gg/wiki/The_Black_Silence) reference.
 
-It is nikitakik228's VIP command.
+nikitakik228's VIP command.

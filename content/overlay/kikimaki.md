@@ -4,26 +4,18 @@ title: Kiki and Maki
 
 # Kiki and Maki
 
-Kiki and Maki are AI cats that appear on the stream in different forms.
+AI cats. Different scales.
 
 ## Kiki
 
-Kiki is a very small fine-tuned LLM model that sometimes responds to chat messages.
+Small fine-tuned LLM. Runs in the cloud.
 
-She runs on a cloud server.
+Say "kiki" in your message to directly interact. Otherwise small random chance to react.
 
-To directly interact with her, have the phrase "kiki" in your message anywhere.
-
-Otherwise, she has a small probability of interacting with a random message.
-
-Her responses are in [Kaomojis](https://en.wikipedia.org/wiki/Kaomoji) and emojis, which appear directly below [Chat Bullets]({{< relref "bullet.md" >}}).
+Responds in [kaomojis](https://en.wikipedia.org/wiki/Kaomoji) below [chat bullets]({{< relref "bullet.md" >}}).
 
 ## Maki
 
-Maki is a very big system of components, which involves voice activation, speech-to-text, and some LLM features.
+Big system: voice activation, speech-to-text, LLMs.
 
-She runs on a combination of the same cloud server Kiki is on, and the [OpenRouter API](https://openrouter.ai).
-
-She can only hear vanor, and respond via overlay popups.
-
-There is currently no way for chat to interact with her.
+Runs on cloud + [OpenRouter](https://openrouter.ai). Only hears vanor. No chat interaction.

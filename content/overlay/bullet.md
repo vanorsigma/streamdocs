@@ -4,8 +4,8 @@ title: "Chat Bullets"
 
 # Chat Bullets
 
-Chat will appear on the stream in the form of bullets, similar to that found in Bilibili or Niconico TV.
+Chat flies across the screen Bilibili/Niconico-style.
 
-Supported emote systems:
-- 7TV (Static + Animated)
-- Twitch (Static only)
+Emotes:
+- 7TV (static + animated)
+- Twitch (static only)
