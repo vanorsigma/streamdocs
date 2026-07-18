@@ -25,8 +25,12 @@ Everyone can use these. Some cost [points]({{<relref "overlay/points.md" >}}).
 |`%checkin`|Check into stream. Once per overlay restart.|Free|NA|
 |`%points <username?>`|Your points, or another user's.|Free|NA|
 |`%flashbang`|Flashbang on screen.|500|-100|
-|`%invest <amount>`|Buy into [stock market]({{<relref "overlay/stock.md" >}}).|`<amount>`|NA|
-|`%uninvest <amount>`|Sell from stock market.|`<amount>`|NA|
+|`%buy <stock> <amount> <price>`|Place a buy order on the [stock market]({{<relref "overlay/stock.md" >}}).|`<amount>*<price>`|NA|
+|`%sell <stock> <amount> <price>`|Place a sell order on the stock market.|`<amount>*<price>`|NA|
+|`%stocks`|Check your portfolio and open orders.|Free|NA|
+|`%buyorders`|See random buy orders on the book.|Free|NA|
+|`%sellorders`|See random sell orders on the book.|Free|NA|
+|`%gamba`|Gamble spin. 60s cooldown.|Free|NA|
 |`%transfer <username> <amount>`|Give points to another user.|`<amount>`|NA|
 |`%selfthought <message>`|Speak as robo-vanor. 5000 cost.|5000|-200|
 |`%block <command>`|Community bid to block a command.|NA|NA|
@@ -41,6 +45,7 @@ Everyone can use these. Some cost [points]({{<relref "overlay/points.md" >}}).
 |`%endpoll`|End current poll.|Free|
 |`%prediction <title>;<durationSec>;<option1>;<option2>;...`|Create a Twitch prediction.|10000|
 |`%endprediction`|Lock and resolve the current prediction.|Free|
+|`%endstream`|Close stock market and pay out holdings. Broadcaster only.|Free|
 
 ## Standard Trinket Commands
 
