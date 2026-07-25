@@ -4,16 +4,34 @@ title: "Stock Market"
 
 # Stock Market
 
-Order-book based stock market. Trade shares of stocks with other chatters.
+The stream has a stock market where you can invest [points]({{< relref "points.md" >}}) tied to vanor's heartrate.
+Stocks are the easiest way to earn points, but they are **lost on restart**. Your holdings disappear unless vanor closes the market before restarting.
 
-- `%buy <stock> <amount> <price>` -- place a buy order
-- `%sell <stock> <amount> <price>` -- place a sell order
-- `%stocks` -- view your portfolio and open orders
-- `%buyorders` / `%sellorders` -- see random orders on the book
-- `%gamba` -- gamble spin (60s cooldown)
+TODO insert an image here
 
-Orders match instantly when a counterparty order meets your price. Unmatched orders sit on the book until filled or the stream ends.
+The market cycles every 15 seconds. Prices update from vanor's heart rate.
 
-`%checkin` grants free shares in all stocks.
+## Commands
 
-`%endstream` (broadcaster only) closes the market, pays out all holdings at last trade price, and refunds unfilled buy orders.
+|command|description|
+|---|---|
+|`%buy <symbol> <amount> [overpay]`|Invest `<amount>` points in a stock. Use `all` for your full balance. Add `overpay` to increase your chance of a successful buy.|
+|`%sell <symbol> <amount>`|Sell your stock holdings. Use `all` to sell everything.|
+|`%stocks`|View your current stock portfolio, including profit/loss.|
+
+## Available Stocks
+
+Currently, the only available stock is **HEART**, which tracks vanor's heartrate.
+
+Higher heart rate means your stock goes up. Lower heart rate means it goes down.
+
+## Buy Mechanics
+
+Buying stocks can fail. The more you invest, the higher the risk.
+You can use the `overpay` option to boost your odds.
+
+Both buying and selling have a 2-second cooldown.
+
+## Check-In Bonuses
+
+Using `%checkin` grants **1000 points** and **100 free shares** of HEART stock.
