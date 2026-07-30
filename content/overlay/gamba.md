@@ -22,7 +22,7 @@ The wheel can land on a mix of good and bad outcomes:
 - **Points**: receive points. The amount is a positive or negative multiplier on your wager.
 - **Stock grants**: receive free [stock market]({{< relref "stock.md" >}}) shares.
 - **Channel point redeem triggers**: activates a random channel point redeem.
-- **Timeout**: times you out for a duration.
+- **Timeout**: times you out for a duration. The timeout duration is **not** scaled by your wager. Being timed out also triggers a [tax]({{< relref "tax.md" >}}) on your points.
 - **Everyone points/stocks**: gives points or stock to all checked-in chatters.
 - **Increased chances**: temporarily boosts command success chance for all chatters.
 - **Cooldown resets**: resets your cooldowns or everyone's cooldowns.

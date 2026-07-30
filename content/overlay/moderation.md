@@ -17,7 +17,7 @@ When the bid closes and succeeds, the command is blocked or unblocked.
 The minimum bid is **1000 points**.
 
 Some commands are **unblockable** and cannot be affected:
-`%restart`, `%block`, `%unblock`, `%refreshVoice`, `%rotate`, `%distract`
+`%restart`, `%block`, `%unblock`, `%refreshVoice`, `%rotate`, `%distract`, `%important`, `%unimportant`
 
 ## Vote Kills
 
@@ -51,3 +51,37 @@ The moderator list is set in the overlay configuration.
 ## VIPs and Karma
 
 Moderators and VIPs usually don't pay point costs for their own commands. Their commands still affect [karma]({{< relref "karma.md" >}}) though.
+
+## Important Mode {#important-mode}
+
+Important mode (`%important`) is an emergency toggle that pauses the entire stream experience. When activated:
+
+- The **overlay hides** with a light-bulb + glow animation, fading to invisible.
+- **All commands** (both overlay and Captain commands) are blocked.
+- **TTS** is disabled.
+- **Kiki and Maki** (the AI agents) are paused; they stop receiving new inputs and stop speaking.
+
+A countdown timer (opacity 0.25) appears in the top-right of the screen for the remaining duration.
+
+### Permissions
+
+- **VIPs**: can activate `%important` **once per stream** (per overlay restart).
+- **Mods & broadcaster**: can activate it **unlimited times** and **turn it off** with `%unimportant`.
+- **`%unimportant`** immediately restores the overlay, TTS, commands, and AI agents.
+
+### Recovery
+
+If the overlay tab crashes while important mode is active:
+
+- The broadcaster can type `%unimportant` in Twitch chat. This is also a **Captain command** (server-side), so it works even without the overlay.
+- The "End Important Mode" button on the Captain dashboard provides a manual fallback.
+
+### Syntax
+
+```
+%important 5m       # 5 minutes
+%important 30s      # 30 seconds
+%important 1h       # 1 hour
+%important 1m30s    # 1 minute 30 seconds
+%unimportant        # End important mode immediately
+```

@@ -93,3 +93,5 @@ See [Moderation]({{< relref "overlay/moderation.md" >}}) for more details.
 |`%unblock <command>`|Unblocks a command by starting a community bid. Minimum bid: 1000 points.|NA|NA|
 |`%kill <username>`|Starts a community vote to timeout a user. Vote target: 2000 points.|NA|NA|
 |`%resetcooldown [username\|all]`|Resets command cooldowns. Without argument resets your own cooldowns. `all` resets all overlay cooldowns (mod only).|Free (self), 20000 (other)|NA|
+|`%important <duration>`|Hides the overlay, blocks all commands, disables TTS and AI. Duration in natural language (e.g. `5m`, `30s`, `1h`, `1m30s`). Mods & broadcaster can use anytime; VIPs can activate it **once per stream**. See [Important Mode]({{< relref "overlay/moderation.md#important-mode" >}}).|Free|NA|
+|`%unimportant`|Ends important mode. Mods & broadcaster only. A button is also available on the Captain dashboard.|Free|NA|
