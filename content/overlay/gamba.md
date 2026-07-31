@@ -27,6 +27,21 @@ The wheel can land on a mix of good and bad outcomes:
 - **Increased chances**: temporarily boosts command success chance for all chatters.
 - **Cooldown resets**: resets your cooldowns or everyone's cooldowns.
 
-Subscriptions and bit donations spin a different wheel with better odds.
+Subscriptions, bit donations and [watch streaks](#watch-streak-gamba) spin different wheels with better odds.
 
 Gamba spins also queue up. If multiple people spin at once, they are processed one at a time.
+
+## Watch Streak Gamba
+
+When a chatter shares a [Twitch watch streak](https://help.twitch.tv/s/article/viewer-milestones), they get a free gamba spin if their streak hits a multiple of the configured interval (default: every 5). The wager equals `streak * 100` points and is free (not deducted from balance).
+
+Possible watch streak outcomes:
+
+- Receive points (100, 500, or 1000)
+- Everyone receives points (250)
+- Everyone receives HEART stock (100 shares)
+- Everyone gets increased command success chance (+10%)
+- Reset all cooldowns
+- Receive HEART stock (100 shares)
+
+Watch streaks and the streak interval can be configured in the Captain dashboard.

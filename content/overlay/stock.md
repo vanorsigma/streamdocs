@@ -29,6 +29,7 @@ Higher heart rate means your stock goes up. Lower heart rate means it goes down.
 
 Buying stocks can fail. The more you invest, the higher the risk.
 You can use the `overpay` option to boost your odds.
+Use [`%check %buy <symbol> <amount> [overpay]`]({{< relref "check.md" >}}) to preview the fail chance before committing points.
 
 Both buying and selling have a 2-second cooldown.
 

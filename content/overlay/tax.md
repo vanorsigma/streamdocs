@@ -12,8 +12,8 @@ The tax rate depends on how the timed-out user's point balance compares to the m
 
 | Condition | Tax Rate |
 |-----------|----------|
-| Balance **exceeds** the check-in median | **20%** of points |
-| Balance **at or below** the check-in median | **5%** of points |
+| Balance **exceeds** the check-in median | **1%** of points |
+| Balance **at or below** the check-in median | **0.1%** of points |
 
 The tax is deducted from liquid vanorDollars only (stock holdings are untouched). If the user has no points, nothing is deducted. The deduction is capped so the balance never goes below zero.
 
@@ -25,7 +25,6 @@ Since moderators cannot be timed out by Twitch, the system handles them differen
 
 - When a mod would be the target of a timeout (e.g. from the gamba wheel), no actual ban is issued.
 - Instead, the mod receives a **flat 20% tax** on their points, with no gun animation.
-- Moderators are always taxed at 20%, regardless of the check-in median.
 
 ## Broadcasters
 
