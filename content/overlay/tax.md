@@ -4,7 +4,7 @@ title: "Tax (Timeouts)"
 
 # Tax (Timeouts)
 
-Whenever a chatter is timed out; whether by a moderator, a command fumble, a [stock market]({{< relref "./stock.md" >}}) buy failure, a community vote kill, or the [gamba wheel]({{< relref "./gamba.md" >}}); they are subject to a **wealth tax** deducted from their [points]({{< relref "./points.md" >}}) balance.
+Whenever a chatter is timed out; whether by a moderator, a command fumble, a [stock market]({{< relref "./stock.md" >}}) buy failure, a community vote kill, or the [gamba wheel]({{< relref "./gamba.md" >}}); they are subject to a **wealth tax** deducted from their [points]({{< relref "./points.md" >}}) balance. Taxed points flow into the [lottery]({{< relref "./lottery.md" >}}) pool.
 
 ## Tax Rate
 

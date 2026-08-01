@@ -15,6 +15,7 @@ Points can be earned in several ways:
 - Through the [stock market]({{< relref "./stock.md" >}}). Buy low, sell high.
 - Through `%checkin`. 1000 points once per overlay restart.
 - Through the [gamba wheel]({{< relref "./gamba.md" >}}), if you get lucky.
+- Through the [lottery]({{< relref "./lottery.md" >}}), if you win the pool.
 - Through channel point redeems (if configured)
 
 ## Transferring Points

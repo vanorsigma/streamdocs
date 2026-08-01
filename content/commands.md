@@ -33,6 +33,7 @@ Arguments are listed in the command string: `%command <argument1> <argument2>...
 |`%sell <symbol> <amount>`|Withdraw `<amount>` from your stock holdings. Use `all` to sell everything.|`<amount>`|NA|
 |`%stocks`|View your current stock portfolio.|Free|NA|
 |`%gamba <amount>`|Spin the [gamba wheel]({{< relref "overlay/gamba.md" >}}). Random outcomes range from free points to timeouts.|`<amount>`|NA|
+|`%lottery [amount]`|Enter the [lottery]({{< relref "overlay/lottery.md" >}}) with `<amount>` points, or run without arguments to see the current pool. Pool grows from entries and timeout taxes. Winner is drawn when the broadcaster runs `%lottery payout`.|`<amount>` (free to check)|NA|
 |`%check <%command> [args...]`|Evaluate the success and failure chances of a command without executing it. Use `%check %buy HEART 100` to preview stock buy odds. See [`%check`]({{< relref "overlay/check.md" >}}).|Free|NA|
 |`%median`|Displays the median vanorDollars balance among all checked-in chatters.|Free|NA|
 |`%selfthought <message>`|Say something as if you were vanor. See [Self-thought]({{< relref "overlay/selfthought.md" >}}).|5000|-200|
