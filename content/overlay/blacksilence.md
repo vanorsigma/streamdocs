@@ -12,5 +12,7 @@ When triggered, it does several things at once:
 - Stops [TTS]({{< relref "TTS.md" >}}) playback and disables it for 10 seconds
 - Clears all [chat bullets]({{< relref "bullet.md" >}}) from the screen
 - Cancels any playing [beepbox]({{< relref "beepbox.md" >}}) songs
+- Cancels active `%cut` and `%grayscale` effects
+- `%important` also triggers Black Silence
 
 It is nikitakik228's VIP command, costing **500 points** and awarding **+50 karma** when used by non-VIP chatters.
