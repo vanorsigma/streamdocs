@@ -75,6 +75,7 @@ The VIP entitlements are not stated (because they should know).
 |---|---|---|---|---|
 |`%blacksilence`|Silences TTS, clears chat bullets, cancels trinkets and beepbox songs. See [Black Silence]({{< relref "overlay/blacksilence.md" >}}).|nikitakik228|500|+50|
 |`%cut`|Overlays a storm video and adds animated cuts to the screen. See [`%cut`]({{< relref "overlay/cut.md" >}}).|owobred|1000|-100|
+|`%font <fontname>`|Sets the font used for your [chat bullets]({{< relref "overlay/bullet.md" >}}). Use `default` to reset. See [Font]({{< relref "overlay/font.md" >}}).|sqbika|10000|NA|
 |`%maxwell`|Spawns bouncing spinning Maxwell bread cats on the screen.|5kuli|100|NA|
 |`%showimage <url or tag> <tag?>`|Shows any image on the screen. If a URL is provided with a tag, saves it for future use. External URLs require approval from a moderator or mayoigo.|mayoigo_QwQ|1000|-200|
 |`%playaudio <url or tag> <tag?>`|Plays any audio. If a URL is provided with a tag, saves it for future use. External URLs require approval from a moderator or SpookiestSpooks.|SpookiestSpooks|5000|-100|
