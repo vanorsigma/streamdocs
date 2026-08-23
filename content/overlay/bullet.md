@@ -8,6 +8,8 @@ Chat messages appear on the stream as scrolling bullets, similar to those found 
 
 Messages float across the screen and are displayed with the chatter's username.
 
+A chatter's username and message text can be customised per-user with a [font]({{< relref "font.md" >}}), and made bold or italic with `%fontweight` and `%fontitalic`.
+
 ## Supported Emote Systems
 
 - **7TV**: both static and animated emotes

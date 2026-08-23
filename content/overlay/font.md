@@ -13,6 +13,15 @@ If the font name doesn't exist, the command tells you to check `/font list` in D
 
 It is sqbika's VIP command, costing **10000 points** when used by non-VIP chatters.
 
+## Font Weight & Italics
+
+Two additional commands change the styling of your [chat bullet]({{< relref "bullet.md" >}}) text:
+
+- `%fontweight <bold|normal>` - makes your username and message text bold or normal
+- `%fontitalic <on|off>` - turns italics on or off
+
+Both are sqbika's VIP commands, also costing **10000 points** for non-VIP chatters, and persist across streams like `%font`.
+
 ## Fonts
 
 Fonts are managed in the Discord font channel:
