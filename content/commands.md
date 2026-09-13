@@ -81,6 +81,7 @@ The VIP entitlements are not stated (because they should know).
 |`%maxwell`|Spawns bouncing spinning Maxwell bread cats on the screen.|5kuli|100|NA|
 |`%showimage <url or tag> <tag?>`|Shows any image on the screen. If a URL is provided with a tag, saves it for future use. External URLs require approval from a moderator or mayoigo.|mayoigo_QwQ|1000|-200|
 |`%playaudio <url or tag> <tag?>`|Plays any audio. If a URL is provided with a tag, saves it for future use. External URLs require approval from a moderator or SpookiestSpooks.|SpookiestSpooks|5000|-100|
+|`%showclip <clipUrl\|clipId>` / `%sc`|Plays a Twitch clip on the overlay. The clip must be from vanor's own channel. See [`%showclip`]({{< relref "overlay/showclip.md" >}}).|vanorsigma|15000|NA|
 |`%goodnightkiss`|Overlays a goodnight kiss animation and times you out for 30 minutes. Redeemable once per stream.|pastel8844|200|-300|
 |`%mistake`|Increments the mistake counter.|Mr_Auto|500|-200|
 |`%settitle <newTitle>`|Changes the stream title. Requires at least 100 karma to execute.|sekatsu1|1000|Modifier: -0.3× current karma|
