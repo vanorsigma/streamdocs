@@ -30,6 +30,7 @@ Only the broadcaster can trigger the payout:
 
 This consumes the pool (entries + accumulated taxes), clears all lottery state, and spins the [gamba wheel]({{< relref "gamba.md" >}}) weighted by each participant's shares. The wheel announces the winner and awards them the full pool.
 
+The payout also runs automatically when the broadcaster raids out.
 If no one has entered, the payout command does nothing.
 
 ## Pool
@@ -39,7 +40,7 @@ The pool is the sum of:
 - All lottery entry points
 - Timeout [tax]({{< relref "tax.md" >}}) revenue collected since the last payout
 
-The pool grows passively as chatters get taxed. Entering the lottery does not grant your pool contribution to anyone -- only the winner takes all.
+The pool grows passively as chatters get taxed. Entering the lottery does not grant your pool contribution to anyone; only the winner takes all.
 
 ## Ties
 

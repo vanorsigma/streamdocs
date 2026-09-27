@@ -48,3 +48,7 @@ Maki has tools to interact with the stream:
 - Use deep reasoning for complex tasks (via a separate LLM)
 
 Maki uses different AI models for different jobs. A main model handles conversation. A separate evaluator model handles code generation. A deep reasoning model handles multi-step analysis.
+
+### Screenshots
+
+Maki captures the screen for visual context. While she takes a screenshot, the overlay hides itself for a moment so the capture is clean.

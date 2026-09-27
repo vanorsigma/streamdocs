@@ -22,7 +22,7 @@ The market cycles every 15 seconds. Prices update from vanor's heart rate.
 ## Available Stocks
 
 - **HEART** tracks vanor's heartrate. Higher heart rate means the stock goes up; lower heart rate means it goes down.
-- **KRMA** (gold) tracks the channel's [karma]({{< relref "karma.md" >}}), mapped to a 0–100 price. High karma means an expensive stock; low karma means a cheap one.
+- **KRMA** (gold) tracks the channel's [karma]({{< relref "karma.md" >}}), mapped to a 0-100 price. High karma means an expensive stock; low karma means a cheap one.
 
 ## Buy Mechanics
 

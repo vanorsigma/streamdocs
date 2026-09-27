@@ -16,6 +16,8 @@ Points can be earned in several ways:
 - Through `%checkin`. 1000 points once per overlay restart.
 - Through the [gamba wheel]({{< relref "./gamba.md" >}}), if you get lucky.
 - Through the [lottery]({{< relref "./lottery.md" >}}), if you win the pool.
+- Through `%clip`. 5000 points for each clip you create.
+- Through `%moment`. 10000 points for each moment.
 - Through channel point redeems (if configured)
 
 ## Transferring Points

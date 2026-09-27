@@ -21,7 +21,7 @@ When karma reaches **+250 or higher**, a "ding" notification plays on stream.
 Kiki uses her own judgement to issue karma for messages she chooses to react to, on a scale from **-500 to +50**.
 
 Commands also affect karma. Refer to [Stream Commands]({{< relref "../commands.md" >}}) for per-command values.
-Positive karma commands include `%blacksilence`. Most other commands consume karma.
+Positive karma commands include `%blacksilence` and `%clip`. Most other commands consume karma.
 
 The model blend shape toggles (`%hearts`, `%stars`, `%undress`) each consume a set amount of karma:
 - Hearts: 5 karma

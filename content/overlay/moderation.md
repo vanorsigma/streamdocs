@@ -17,7 +17,7 @@ When the bid closes and succeeds, the command is blocked or unblocked.
 The minimum bid is **1000 points**.
 
 Some commands are **unblockable** and cannot be affected:
-`%restart`, `%block`, `%unblock`, `%refreshVoice`, `%rotate`, `%distract`, `%important`, `%unimportant`
+`%restart`, `%block`, `%unblock`, `%refreshVoice`, `%rotate`, `%distract`, `%important`, `%unimportant`, `%raid`, `%moment`
 
 ## Vote Kills
 
@@ -57,7 +57,7 @@ Moderators and VIPs usually don't pay point costs for their own commands. Their 
 Important mode (`%important`) is an emergency toggle that pauses the entire stream experience. When activated:
 
 - The **overlay hides** with a light-bulb + glow animation, fading to invisible.
-- **All commands** (both overlay and Captain commands) are blocked.
+- **All commands** (both overlay and Captain commands) are blocked, except `%unimportant`, `%moment` and `%raid`.
 - **TTS** is disabled.
 - **Kiki and Maki** (the AI agents) are paused; they stop receiving new inputs and stop speaking.
 
